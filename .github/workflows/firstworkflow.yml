@@ -2,7 +2,7 @@ name: Bootcamp 15 Demo
 run-name: Testing Github Actions
 on: [push]
 jobs:
-    Test-GithubActions
+    Test-GithubActions:
         runs-on:ubuntu-latest
             steps:
                 -run: echo "Automatically triggered test event"
